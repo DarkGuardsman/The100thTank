@@ -1,0 +1,147 @@
+fileFormatVersion: 2
+guid: 08ec3e66b976a364f9e36bc0171b83c2
+timeCreated: 1432679366
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: _0CalBarrel
+    100002: _0CalHousing
+    100004: BAxle
+    100006: BLeftTire
+    100008: Body
+    100010: BRightTire
+    100012: Camera
+    100014: FAxle
+    100016: FLeftTire
+    100018: FRightTire
+    100020: Hatch
+    100022: Lamp
+    100024: Light
+    100026: TurretCamera
+    100028: TurretMounting
+    100030: TurretRing
+    100032: //RootNode
+    100034: Window
+    400000: _0CalBarrel
+    400002: _0CalHousing
+    400004: BAxle
+    400006: BLeftTire
+    400008: Body
+    400010: BRightTire
+    400012: Camera
+    400014: FAxle
+    400016: FLeftTire
+    400018: FRightTire
+    400020: Hatch
+    400022: Lamp
+    400024: Light
+    400026: TurretCamera
+    400028: TurretMounting
+    400030: TurretRing
+    400032: //RootNode
+    400034: Window
+    2300000: _0CalBarrel
+    2300002: _0CalHousing
+    2300004: BAxle
+    2300006: BLeftTire
+    2300008: Body
+    2300010: BRightTire
+    2300012: FAxle
+    2300014: FLeftTire
+    2300016: FRightTire
+    2300018: Hatch
+    2300020: Light
+    2300022: TurretCamera
+    2300024: TurretMounting
+    2300026: TurretRing
+    2300028: Window
+    3300000: _0CalBarrel
+    3300002: _0CalHousing
+    3300004: BAxle
+    3300006: BLeftTire
+    3300008: Body
+    3300010: BRightTire
+    3300012: FAxle
+    3300014: FLeftTire
+    3300016: FRightTire
+    3300018: Hatch
+    3300020: Light
+    3300022: TurretCamera
+    3300024: TurretMounting
+    3300026: TurretRing
+    3300028: Window
+    4300000: BRightTire
+    4300002: BAxle
+    4300004: BLeftTire
+    4300006: FRightTire
+    4300008: Body
+    4300010: Window
+    4300012: Hatch
+    4300014: TurretRing
+    4300016: FAxle
+    4300018: FLeftTire
+    4300020: Light
+    4300022: TurretMounting
+    4300024: _0CalHousing
+    4300026: TurretCamera
+    4300028: _0CalBarrel
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
