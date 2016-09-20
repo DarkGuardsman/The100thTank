@@ -124,7 +124,7 @@ public class Entity : MonoBehaviour, IEntity
 	//Called by unity before the script is destoryed
 	protected virtual void OnDestroy ()
 	{
-		print ("Script was destroyed");
+		//print ("Script was destroyed");
 	}
 
 	/// <summary>
@@ -164,6 +164,7 @@ public class Entity : MonoBehaviour, IEntity
 		while (parent != null) {
 
 			if (IsEntity (parent) && AttackGameObjectOnly (parent, source, damage)) {
+                Debug.Log("Attacked Entity: " + parent);
 				return true;
 			}
 			if (parent.transform == null || parent.transform.parent == null) {

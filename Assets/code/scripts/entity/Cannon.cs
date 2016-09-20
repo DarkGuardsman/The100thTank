@@ -87,7 +87,7 @@ public abstract class Cannon : MonoBehaviour
 		//TODO play firing audio
 		firingDelayTicks = firingDelaySeconds;
 		GameObject bullet = Instantiate (bulletPrefab, firingNode.transform.position, Quaternion.identity) as GameObject;
-		bullet.transform.eulerAngles = new Vector3 (transform.eulerAngles.x + rollRandomError (), transform.eulerAngles.y + rollRandomError (), transform.eulerAngles.z + rollRandomError ());
+		bullet.transform.eulerAngles = new Vector3 (firingNode.transform.eulerAngles.x + rollRandomError (), firingNode.transform.eulerAngles.y + rollRandomError (), firingNode.transform.eulerAngles.z + rollRandomError ());
 		bullet.GetComponent<Rigidbody> ().AddRelativeForce (0f, 0f, bulletForce);
 		bullet.GetComponent<Bullet> ().shooter = shooter;
 		return bullet;

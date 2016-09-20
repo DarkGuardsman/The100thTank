@@ -7,7 +7,8 @@ public class Barrel : Entity {
 	public GameObject effectPrefab;
 	public override bool damageEntity(DamageSource source, float damage)
 	{
-		if (damage > 10) {
+        hp -= damage;
+		if (hp <= 0) {
 			GoBoom();
 		}
 		return base.damageEntity (source, damage);

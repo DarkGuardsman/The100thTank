@@ -31,7 +31,7 @@ public class Bullet : Entity
 		} else {
 			damageSource = new BulletDamageSource (gameObject);
 		}
-
+      
 		this.AttackGameObject (collision.gameObject, damageSource, damage);
 		Destroy (gameObject);
 	}	
