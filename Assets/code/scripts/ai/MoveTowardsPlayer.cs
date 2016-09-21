@@ -11,15 +11,17 @@ public class MoveTowardsPlayer : MonoBehaviour {
     public int moveSpeed = 3;
     /** Rotations per second to aim at the player */
     public int rotationSpeed = 3;
-
-    // Use this for initialization
-    void Start ()
-    {
-        target = GameObject.Find("Player");
-	}
     
     void FixedUpdate()
     {
+        //Find target
+        if(target == null)
+        {
+            //TODO pass threw to some targetting system to find best target if there are several
+            target = GameObject.FindWithTag("Player");
+        }
+       
+        //If target then start doing logic
         if (target != null)
         {
             //TODO implement can-see check
